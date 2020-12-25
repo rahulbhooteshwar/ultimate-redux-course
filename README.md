@@ -10,16 +10,7 @@ Install Node.js and npm. Once installed open code in your favorite code editor s
 
 Open a terminal and type in `npm start` to run the dev server. Go to `localhost:9000` to see the results.
 
-### Run the files in the **functional** sub-folder
+### Run mock API server
+`npm run start-server`
 
-Direct the terminal to the `src/functional` sub-folder and run `node {FILE_TO_RUN_GOES_HERE}`.
-
-## Folders
-
-Here's a description of the project code included.
-
-- **server**: Node.js back-end for the bug tracker app.
-- **src**: completed React/Redux front-end for bug tracker app.
-- **src/store**: completed redux store for the bug tracker app.
-- **src/store/middleware**: redux store middleware for bug tacker app.
-- **src/functional**: sample JS files to demonstrate functional programming concepts.
+Visit http://localhost:9001/ for API details
