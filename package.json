@@ -1,0 +1,38 @@
+{
+  "name": "redux-course",
+  "version": "1.0.0",
+  "description": "Redux Bug Report App",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --config ./webpack.config.js",
+    "test": "jest --watch --color --coverage",
+    "lint": "eslint src"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.5.0",
+    "axios": "~0.19.2",
+    "immer": "~6.0.3",
+    "immutable": "~4.0.0-rc.12",
+    "lodash": "~4.17.19",
+    "moment": "~2.27.0",
+    "redux": "~4.0.5",
+    "reselect": "~4.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "~7.10.4",
+    "@babel/plugin-transform-runtime": "^7.12.10",
+    "@babel/preset-env": "~7.10.4",
+    "@types/jest": "~26.0.4",
+    "axios-mock-adapter": "^1.19.0",
+    "babel-jest": "~26.1.0",
+    "eslint": "^7.16.0",
+    "jest": "~26.1.0",
+    "redux-devtools-extension": "^2.13.8",
+    "webpack": "^5.11.0",
+    "webpack-cli": "~3.3.12",
+    "webpack-dev-server": "~3.11.0",
+    "webpack-node-externals": "~2.5.0"
+  }
+}
